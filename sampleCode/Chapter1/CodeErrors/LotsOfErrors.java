@@ -1,6 +1,6 @@
 package sampleCode.Chapter1.CodeErrors;
 
-public class LotsOf Errors {
+public class LotsOfErrors {
         public static main(String args) {
             System.println(Hello, world!);
             message()
