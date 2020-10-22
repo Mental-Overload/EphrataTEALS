@@ -1,3 +1,5 @@
+package studentWork.Unit1;
+
 public class Equestria {
     public static void main (String [] args) {
     Dia();
