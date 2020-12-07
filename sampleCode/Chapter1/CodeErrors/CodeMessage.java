@@ -1,7 +1,10 @@
 package sampleCode.Chapter1.CodeErrors;
 
 public class CodeMessage {
-    public static main(string[] args) {
+   
+    public static void main (String[] args) {
         System.out.println("Speak friend");
-        System.Out.println("and enter );
+        System.out.println("and enter");
+    }
+
 }
