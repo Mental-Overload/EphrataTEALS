@@ -1,8 +1,8 @@
-package studentWork;
+package sampleCode.Games;
 
 import java.util.Scanner;
 
-public class gameTest {
+public class WesGame {
 
     private static final Scanner console = new Scanner(System.in);
 
@@ -13,6 +13,8 @@ public class gameTest {
         System.out.println("Really? " + Name + " is too weird to be a real name.");
         confirmation();
         Mascot();
+        Fence();
+        Sphinx();
         System.out.println("Thank you for playing the demo");
     
         console.close(); 
@@ -40,16 +42,32 @@ public class gameTest {
         
     }
     
-    public static boolean Mascot(string name) {
+    public static boolean Mascot() {
         
         System.out.println("what Is our school mascot?");
         String b = console.nextLine();
         if (b.toLowerCase().contains("tiger")){
             System.out.println("Good, next riddle.");
-            System.out.println("What runs around the whole yard without moving?");
-    String c = console.nextLine();
-    if (c.toLowerCase().contains("fence")){
-        System.out.println("Good, next riddle.");
+    return true;
+        } else{
+            System.out.println("You have failed");
+           return false;
+       }
+        
+    }
+    public static boolean Fence() {
+        System.out.println("What runs around the whole yard without moving?");
+        String c = console.nextLine();
+        if (c.toLowerCase().contains("fence")){
+            System.out.println("Good, next riddle.");
+            return true;
+        } else{
+            System.out.println("You have failed");
+            return false;
+        }
+        
+    }
+    public static boolean Sphinx() {
         System.out.println("What goes on four feet in the morning, two feet at noon, and three feet in the evening? ");
         String d = console.nextLine();
         if (d.toLowerCase().contains("man")){
@@ -60,13 +78,6 @@ public class gameTest {
             return false;
         }
         
-    } else{
-        System.out.println("You have failed");
-        return false;
     }
-        } else{
-            System.out.println("You have failed");
-           return false;
-       }
 
-    }
+}

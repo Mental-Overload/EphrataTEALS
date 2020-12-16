@@ -1,0 +1,13 @@
+package sampleCode.Chapter1.CodeErrors;
+
+public class HelloEphrata {
+<<<<<<< HEAD:sampleCode/Chapter1/CodeErrors/HelloEphrata.java
+=======
+}
+>>>>>>> 9cdaba07273533e328aa5cafc73e12df12cea318:sampleCode/Chapter1/CodeErrors/HelloEphrata.ERROR_java
+
+    public static void main (String [] args) {
+        System.out.println("Hello Ephrata");
+    }
+
+}
