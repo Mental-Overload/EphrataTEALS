@@ -49,7 +49,23 @@ public class ProcessingNumbers {
 
 
     //Group3 largestOdd Method
+    public static void largeOdd(int totalNumbers){
 
+        Scanner scannerOdd = new Scanner(System.in);
+        int sum = 0;                                        // By using totalNumber instead
+        for (int j = 1;  j <= totalNumbers;  j++) {         // of an actual number, we give
+            System.out.print("#" + j + "? ");               // our program flexibility.
+            int next = scannerOdd.nextInt();
+           if(next % 2 > 0){
+        }{
+        }
+
+        }
+
+        System.out.println ();
+        System.out.println ("Your numbers add to " + sum); 
+        Scanner.close();
+    }
 
 
 
