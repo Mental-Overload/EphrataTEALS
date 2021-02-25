@@ -37,10 +37,9 @@ public class gameTest {
         System.out.print("whats your real name? ");
         String realName =console.nextLine();
         System.out.println("" + realName + " sounds like a real name, but you lied the first time so you will need to answer riddles 3 to continue to the game");
-        
     }
     
-    public static boolean Mascot(string name) {
+    public static boolean Mascot() {
         
         System.out.println("what Is our school mascot?");
         String b = console.nextLine();
@@ -70,3 +69,4 @@ public class gameTest {
        }
 
     }
+}
