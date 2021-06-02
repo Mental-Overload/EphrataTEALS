@@ -8,11 +8,12 @@ public class gameClient {
 
     public static void main(String[] args) {// follow the prompts.//
     gameCode obj = new gameCode();
+    riddles rid = new riddles();
         //replace placeholder with your name//
-        obj.setName("placeholder");
+        obj.setName("Macy");
         System.out.print( obj.getName());
         System.out.println(obj.unSure());
-        obj.Mascot();
+        rid.Mascot();
         System.out.println("Thank you for playing the demo");
     
         console.close(); 
