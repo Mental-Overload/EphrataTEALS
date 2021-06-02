@@ -10,7 +10,7 @@ public class gameClient {
     gameCode obj = new gameCode();
     riddles rid = new riddles();
         //replace placeholder with your name//
-        obj.setName("Macy");
+        obj.setName("placeholder");
         System.out.print( obj.getName());
         System.out.println(obj.unSure());
         rid.Mascot();
